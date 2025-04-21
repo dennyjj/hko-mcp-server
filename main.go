@@ -12,7 +12,12 @@ import (
 
 const baseUrl = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php"
 const (
-	currentWeatherReport = "rhrread"
+	localWeatherForecast      = "flw"
+	nineDayWeatherForecast    = "fnd"
+	currentWeatherReport      = "rhrread"
+	weatherWarningSummary     = "warnsum"
+	weatherWarningInformation = "warningInfo"
+	specialWeatherTips        = "swt"
 )
 const (
 	langTc = "tc"
